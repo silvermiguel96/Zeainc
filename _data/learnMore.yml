@@ -1,0 +1,29 @@
+BannerOne:
+- title: Zea Drive
+  description: Store, share and access your data from any device with Zea Drive – Zea’s browser-based cloud storage platform built for large 3D visualization projects.
+  description2: You control project privacy with member permissions and outside collaborators. Zea ensures that your data is always kept secure.
+  img: http://zea.live/content/uploads/2019/09/builtWeb_zeaDrive.jpg
+
+BannerTwo:
+- title: Version history
+  description: Keep track of changes to your files, who made those changes and when. Work simultaneously on projects knowing that previous file versions are always backed up and easily restored..
+  img: http://zea.live/content/uploads/2019/09/builtWeb_versionHistory.mp4
+
+BannerThree:
+- title: Cloud compute
+  description: Rapidly access cloud compute power to optimize and convert gigabytes of 3D data in the background while you keep working.
+  img: http://zea.live/content/uploads/2019/09/builtWeb_cloudCompute.png
+  
+BannerFour:
+- title: Apps
+  description: Boost the power of Zea Drive with apps. Install an app from the app store or build your own and customize Zea for your own needs.
+  img: http://zea.live/content/uploads/2019/09/builtWeb_apps.png
+
+
+
+  
+
+  
+
+
+
