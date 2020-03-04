@@ -1,6 +1,3 @@
-# Zeainc
-Zeainc repository
-
 ## Installation/Setup
 1. Download or clone repo `git@github.com:silvermiguel96/Zeainc.git`
 2. Enter the folder: `cd zeainc/`

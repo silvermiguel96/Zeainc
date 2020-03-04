@@ -2,6 +2,9 @@
 layout: "default"
 ---
 <div class="container-fluid">
+    <div class="d-flex justify-content-center">
+        <h3 class="text-muted p-5">View, collaborate and create in the browser with Zea Drive.</h3>
+    </div>
     <div class="d-flex justify-content-center flex-wrap m-5 ">
         <div class="row container-banner">
             <div class="col-12 col-md-6 d-flex flex-column justify-content-center">
@@ -19,7 +22,7 @@ layout: "default"
         <div class="row container-banner">
             <div class="col-12 col-md-6">
                 <div class="embed-responsive embed-responsive-16by9">
-                    <iframe class="embed-responsive-item" src="{{site.data.learnMore.BannerTwo[0].img}}"></iframe>
+                    <video src="{{site.data.learnMore.BannerTwo[0].img}}" playsinline="" autoplay="" muted="" loop=""></video>
                 </div>
             </div>
             <div class="col-12 col-md-6 d-flex flex-column justify-content-center">
@@ -57,29 +60,71 @@ layout: "default"
 <div class="container-form m-0 ">
     <div class="container">
         <div class="d-flex justify-content-center">
-            <h2 class="text-white p-5">Get in touch</h2d>
+            <h2 class="text-white p-5">Get in touch</h2>
         </div>
-        <form>
-            <div class="form-group">
-                <label for="formName">Name</label>
-                <input type="text" class="form-control" id="formName" placeholder="Example input placeholder">
+        <form class="pb-5">
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-6">
+                    <div class="form-group">
+                        <label for="formName" class="text-white">Name</label>
+                        <input type="text" class="form-control form-control-lg" id="formName" aria-describedby="nameHelp">
+                        <small id="nameHelp" class="form-text text-muted">Required</small>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-6"">
+                    <div class="form-group">
+                        <label for="formSurName" class="text-white">Surname</label>
+                        <input type="text" class="form-control form-control-lg" id="formSurName" aria-describedby="surNameHelp" >
+                        <small id="surNameHelp" class="form-text text-muted">Required</small>
+                    </div>
+                </div>
             </div>
-            <div class="form-group">
-                <label for="exampleInputEmail1">Email address</label>
-                <input type="email" class="form-control form-control-lg" id="exampleInputEmail1"
-                    aria-describedby="emailHelp">
-                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
-                    else.</small>
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-6">
+                    <div class="form-group">
+                        <label for="formEmail" class="text-white">Email</label>
+                        <input type="email" class="form-control form-control-lg" id="formEmail"
+                            aria-describedby="emailHelp">
+                        <small id="emailHelp" class="form-text text-muted">Required</small>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-6"">
+                    <div class="form-group">
+                        <label for="formNumber" class="text-white">Phone Number</label>
+                        <input type="number" class="form-control form-control-lg" id="formNumber" aria-describedby="numberHelp" >
+                        <small id="numberHelp" class="form-text text-muted">Required</small>
+                    </div>
+                </div>
             </div>
-            <div class="form-group">
-                <label for="exampleInputPassword1">Password</label>
-                <input type="password" class="form-control" id="exampleInputPassword1">
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-6">
+                    <div class="row">
+                        <div class="col-12 col-md-12">
+                            <div class="form-group">
+                                <label for="formOrganization" class="text-white">Organization</label>
+                                <input type="text" class="form-control form-control-lg" id="formOrganization"
+                                    aria-describedby="organizationHelp">
+                                <small id="organizationHelp" class="form-text text-muted">Required</small>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-12 "">
+                            <div class="form-group">
+                                <label for="formJobTitle" class="text-white">Job Title</label>
+                                <input type="text" class="form-control form-control-lg" id="formJobTitle" aria-describedby="jobTitleHelp" >
+                                <small id="jobTitleHelp" class="form-text text-muted">Required</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-6"">
+                    <div class="form-group">
+                        <label for="formMessage" class="text-white">Message</label>
+                        <textarea class="form-control" id="formMessage" rows="6" aria-describedby="messageHelp"></textarea>
+                        <small id="messageHelp" class="form-text text-muted">Required</small>
+                    </div>
+                </div>
             </div>
-            <div class="form-group form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <label class="form-check-label" for="exampleCheck1">Check me out</label>
-            </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" class="btn-zea-green">Submit</button>
         </form>
     </div>
 </div>

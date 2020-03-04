@@ -8,3 +8,13 @@
 .container-form {
     background-color: #2D3A4F;
 }
+.btn-zea-green {
+    background: #09cb9b;
+    border: none;
+    border-radius: 30px;
+    color: #fff;
+    display: block;
+    margin: 50px auto 0;
+    padding: 21px 0;
+    width: 120px;
+}
